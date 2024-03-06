@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+
+<html theme="dark" showBanner="true" hasBanner="false" > 
+<link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
+<link href="/fontawesome/css/brands.css" rel="stylesheet">
+<link href="/fontawesome/css/solid.css" rel="stylesheet">
+<script src="/js/color.global.min.js" ></script>
+<script src="/js/load-settings.js" ></script>
+<head>
+  <meta charset="utf-8">
+  
+  
+  
+
+  
+  <title>hahaha | CentriFugalForce</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" href="/css/fonts/Roboto-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="/css/fonts/Roboto-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+
+  <meta name="description" content="第一章  - 1.1 通信的目的      - 传递消息中的信息  - 1.2 信息的定义      - 消息中包含的有效内容  - 1.3 模拟信号与数字信号的参量      - 模拟信号的参量取值是连续（不可数、无穷多）的（抽样信号未量化仍为模拟信号）      - 数字信号的参量取值是可数的有限的  - 1.5 模拟通信系统一般过程      -  - ^^1.6 数字通信系统模型^^">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hahaha">
+<meta property="og:url" content="http://centrifugalforce.github.io/2024/03/06/hahaha/index.html">
+<meta property="og:site_name" content="CentriFugalForce">
+<meta property="og:description" content="第一章  - 1.1 通信的目的      - 传递消息中的信息  - 1.2 信息的定义      - 消息中包含的有效内容  - 1.3 模拟信号与数字信号的参量      - 模拟信号的参量取值是连续（不可数、无穷多）的（抽样信号未量化仍为模拟信号）      - 数字信号的参量取值是可数的有限的  - 1.5 模拟通信系统一般过程      -  - ^^1.6 数字通信系统模型^^">
+<meta property="og:locale">
+<meta property="og:image" content="http://centrifugalforce.github.io/assets/image_1705637027655_0.png">
+<meta property="article:published_time" content="2024-03-06T05:56:29.000Z">
+<meta property="article:modified_time" content="2024-03-06T05:57:11.293Z">
+<meta property="article:author" content="CentriFugalForce">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://centrifugalforce.github.io/assets/image_1705637027655_0.png">
+  
+    <link rel="alternate" href="/atom.xml" title="CentriFugalForce" type="application/atom+xml">
+  
+  
+    <link rel="icon" media="(prefers-color-scheme: light)" href="/images/favicon-light-32.png" sizes="32x32">
+    <link rel="icon" media="(prefers-color-scheme: light)" href="/images/favicon-light-128.png" sizes="128x128">
+    <link rel="icon" media="(prefers-color-scheme: light)" href="/images/favicon-light-180.png" sizes="180x180">
+    <link rel="icon" media="(prefers-color-scheme: light)" href="/images/favicon-light-192.png" sizes="192x192">
+    <link rel="icon" media="(prefers-color-scheme: dark)" href="/images/favicon-dark-32.png" sizes="32x32">
+    <link rel="icon" media="(prefers-color-scheme: dark)" href="/images/favicon-dark-128.png" sizes="128x128">
+    <link rel="icon" media="(prefers-color-scheme: dark)" href="/images/favicon-dark-180.png" sizes="180x180">
+    <link rel="icon" media="(prefers-color-scheme: dark)" href="/images/favicon-dark-192.png" sizes="192x192">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 7.1.1"></head>
+
+<body>
+  
+   
+  <div id="main-grid" class="shadow   ">
+    <div id="nav" class=""  >
+      <navbar id="navbar">
+  <nav id="title-nav">
+    <a href="/">
+      <div id="vivia-logo">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <div>CentriFugalForce </div>
+    </a>
+  </nav>
+  <nav id="main-nav">
+    
+      <a class="main-nav-link" href="/">Home</a>
+    
+      <a class="main-nav-link" href="/archives">Archives</a>
+    
+      <a class="main-nav-link" href="/about">About</a>
+    
+  </nav>
+  <nav id="sub-nav">
+    <a id="theme-btn" class="nav-icon">
+      <span class="light-mode-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M438.5-829.913v-48q0-17.452 11.963-29.476 11.964-12.024 29.326-12.024 17.363 0 29.537 12.024t12.174 29.476v48q0 17.452-11.963 29.476-11.964 12.024-29.326 12.024-17.363 0-29.537-12.024T438.5-829.913Zm0 747.826v-48q0-17.452 11.963-29.476 11.964-12.024 29.326-12.024 17.363 0 29.537 12.024t12.174 29.476v48q0 17.452-11.963 29.476-11.964 12.024-29.326 12.024-17.363 0-29.537-12.024T438.5-82.087ZM877.913-438.5h-48q-17.452 0-29.476-11.963-12.024-11.964-12.024-29.326 0-17.363 12.024-29.537t29.476-12.174h48q17.452 0 29.476 11.963 12.024 11.964 12.024 29.326 0 17.363-12.024 29.537T877.913-438.5Zm-747.826 0h-48q-17.452 0-29.476-11.963-12.024-11.964-12.024-29.326 0-17.363 12.024-29.537T82.087-521.5h48q17.452 0 29.476 11.963 12.024 11.964 12.024 29.326 0 17.363-12.024 29.537T130.087-438.5Zm660.174-290.87-34.239 32q-12.913 12.674-29.565 12.174-16.653-.5-29.327-13.174-12.674-12.673-12.554-28.826.12-16.152 12.794-28.826l33-35q12.913-12.674 30.454-12.674t30.163 12.847q12.709 12.846 12.328 30.826-.38 17.98-13.054 30.653ZM262.63-203.978l-32 34q-12.913 12.674-30.454 12.674t-30.163-12.847q-12.709-12.846-12.328-30.826.38-17.98 13.054-30.653l33.239-31q12.913-12.674 29.565-12.174 16.653.5 29.327 13.174 12.674 12.673 12.554 28.826-.12 16.152-12.794 28.826Zm466.74 33.239-32-33.239q-12.674-12.913-12.174-29.565.5-16.653 13.174-29.327 12.673-12.674 28.826-13.054 16.152-.38 28.826 12.294l35 33q12.674 12.913 12.674 30.454t-12.847 30.163q-12.846 12.709-30.826 12.328-17.98-.38-30.653-13.054ZM203.978-697.37l-34-33q-12.674-12.913-13.174-29.945-.5-17.033 12.174-29.707t31.326-13.293q18.653-.62 31.326 13.054l32 34.239q11.674 12.913 11.174 29.565-.5 16.653-13.174 29.327-12.673 12.674-28.826 12.554-16.152-.12-28.826-12.794ZM480-240q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Zm-.247-82q65.703 0 111.475-46.272Q637-414.544 637-480.247t-45.525-111.228Q545.95-637 480.247-637t-111.475 45.525Q323-545.95 323-480.247t45.525 111.975Q414.05-322 479.753-322ZM481-481Z"/></svg></span>
+      <span class="dark-mode-icon"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M480.239-116.413q-152.63 0-258.228-105.478Q116.413-327.37 116.413-480q0-130.935 77.739-227.435t206.304-125.043q43.022-9.631 63.87 10.869t3.478 62.805q-8.891 22.043-14.315 44.463-5.424 22.42-5.424 46.689 0 91.694 64.326 155.879 64.325 64.186 156.218 64.186 24.369 0 46.978-4.946 22.609-4.945 44.413-14.076 42.826-17.369 62.967 1.142 20.142 18.511 10.511 61.054Q807.174-280 712.63-198.206q-94.543 81.793-232.391 81.793Zm0-95q79.783 0 143.337-40.217 63.554-40.218 95.793-108.283-15.608 4.044-31.097 5.326-15.49 1.283-31.859.805-123.706-4.066-210.777-90.539-87.071-86.473-91.614-212.092-.24-16.369.923-31.978 1.164-15.609 5.446-30.978-67.826 32.478-108.282 96.152Q211.652-559.543 211.652-480q0 111.929 78.329 190.258 78.329 78.329 190.258 78.329ZM466.13-465.891Z"/></svg></span>
+    </a>
+    
+      <a id="nav-rss-link" class="nav-icon mobile-hide" href="/atom.xml" title="RSS Feed">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M198-120q-25.846 0-44.23-18.384-18.384-18.385-18.384-44.23 0-25.846 18.384-44.23 18.384-18.385 44.23-18.385 25.846 0 44.23 18.385 18.384 18.384 18.384 44.23 0 25.845-18.384 44.23Q223.846-120 198-120Zm538.385 0q-18.846 0-32.923-13.769-14.076-13.769-15.922-33.23-8.692-100.616-51.077-188.654-42.385-88.039-109.885-155.539-67.5-67.501-155.539-109.885Q283-663.462 182.385-672.154q-19.461-1.846-33.23-16.23-13.769-14.385-13.769-33.846t14.076-32.922q14.077-13.461 32.923-12.23 120.076 8.692 226.038 58.768 105.961 50.077 185.73 129.846 79.769 79.769 129.846 185.731 50.077 105.961 58.769 226.038 1.231 18.846-12.538 32.922Q756.461-120 736.385-120Zm-252 0q-18.231 0-32.423-13.461t-18.653-33.538Q418.155-264.23 348.886-333.5q-69.27-69.27-166.501-84.423-20.077-4.462-33.538-18.961-13.461-14.5-13.461-33.346 0-19.076 13.884-33.23 13.884-14.153 33.115-10.922 136.769 15.384 234.384 112.999 97.615 97.615 112.999 234.384 3.231 19.23-10.538 33.115Q505.461-120 484.385-120Z"/></svg>
+      </a>
+    
+    <div id="nav-menu-btn" class="nav-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M177.37-252.282q-17.453 0-29.477-11.964-12.024-11.963-12.024-29.326t12.024-29.537q12.024-12.174 29.477-12.174h605.26q17.453 0 29.477 11.964 12.024 11.963 12.024 29.326t-12.024 29.537q-12.024 12.174-29.477 12.174H177.37Zm0-186.218q-17.453 0-29.477-11.963-12.024-11.964-12.024-29.326 0-17.363 12.024-29.537T177.37-521.5h605.26q17.453 0 29.477 11.963 12.024 11.964 12.024 29.326 0 17.363-12.024 29.537T782.63-438.5H177.37Zm0-186.217q-17.453 0-29.477-11.964-12.024-11.963-12.024-29.326t12.024-29.537q12.024-12.174 29.477-12.174h605.26q17.453 0 29.477 11.964 12.024 11.963 12.024 29.326t-12.024 29.537q-12.024 12.174-29.477 12.174H177.37Z"/></svg>
+    </div>
+  </nav>
+</navbar>
+<div id="nav-dropdown" class="hidden">
+  <div id="dropdown-link-list">
+    
+      <a class="nav-dropdown-link" href="/">Home</a>
+    
+      <a class="nav-dropdown-link" href="/archives">Archives</a>
+    
+      <a class="nav-dropdown-link" href="/about">About</a>
+    
+    
+      <a class="nav-dropdown-link" href="/atom.xml" title="RSS Feed">RSS</a>
+     
+    </div>
+</div>
+<script>
+  let dropdownBtn = document.getElementById("nav-menu-btn");
+  let dropdownEle = document.getElementById("nav-dropdown");
+  dropdownBtn.onclick = function() {
+    dropdownEle.classList.toggle("hidden");
+  }
+</script>
+    </div>
+    <div id="sidebar-wrapper">
+      <sidebar id="sidebar">
+  
+    <div class="widget-wrap">
+  <div class="info-card">
+    <div class="avatar">
+      
+      <div class="img-dim"></div>
+    </div>
+    <div class="info">
+      <div class="username">Your Name </div>
+      <div class="dot"></div>
+      <div class="subtitle">This is the subtitle </div>
+      <div class="link-list">
+        
+          <a class="link-btn" target="_blank" rel="noopener" href="https://twitter.com" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        
+          <a class="link-btn" target="_blank" rel="noopener" href="https://store.steampowered.com" title="Steam"><i class="fa-brands fa-steam"></i></a>
+        
+          <a class="link-btn" target="_blank" rel="noopener" href="https://github.com" title="GitHub"><i class="fa-brands fa-github"></i></a>
+         
+      </div>  
+    </div>
+  </div>
+</div>
+
+  
+  <div class="sticky">
+    
+      
+
+
+
+    
+      
+
+    
+  </div>
+</sidebar>
+    </div>
+    <div id="content-body">
+       
+
+<article id="post-hahaha" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  
+    
+   
+  <div class="article-inner">
+    <div class="article-main">
+      <header class="article-header">
+        
+<div class="main-title-bar">
+  <div class="main-title-dot"></div>
+  
+    
+      <h1 class="p-name article-title" itemprop="headline name">
+        hahaha
+      </h1>
+    
+  
+</div>
+
+        <div class='meta-info-bar'>
+          <div class="meta-info">
+  <time class="dt-published" datetime="2024-03-06T05:56:29.000Z" itemprop="datePublished">2024-03-06</time>
+</div>
+          <div class="need-seperator meta-info">
+            <div class="meta-cate-flex">
+  
+    Uncategorized 
+   
+</div>
+  
+          </div>
+          <div class="wordcount need-seperator meta-info">
+            3.6k words 
+          </div>
+        </div>
+        
+      </header>
+      <div class="e-content article-entry" itemprop="articleBody">
+        
+          <ul>
+<li><h2 id="第一章-1-1-通信的目的-传递消息中的信息-1-2-信息的定义-消息中包含的有效内容-1-3-模拟信号与数字信号的参量-模拟信号的参量取值是连续（不可数、无穷多）的（抽样信号未量化仍为模拟信号）-数字信号的参量取值是可数的有限的-1-5-模拟通信系统一般过程-1-6-数字通信系统模型-card-last-interval-1-card-repeats-1-card-ease-factor-2-5-card-next-schedule-2024-01-19T16-00-00-000Z-card-last-reviewed-2024-01-19T04-08-27-407Z-card-last-score-1-1-6-1-信源编码与译码的目的-card-last-interval-1-card-repeats-1-card-ease-factor-2-5-card-next-schedule-2024-01-19T16-00-00-000Z-card-last-reviewed-2024-01-19T04-08-28-378Z-card-last-score-1-①-提高信息传输的有效性-②-完成模-数转化-1-6-2-信道编码与译码的目的-card-last-interval-1-card-repeats-1-card-ease-factor-2-5-card-next-schedule-2024-01-19T16-00-00-000Z-card-last-reviewed-2024-01-19T04-08-28-770Z-card-last-score-1-增强抗干扰能力，提高可靠性-1-6-3-同步的分类-card-last-score-1-card-repeats-1-card-next-schedule-2024-01-19T16-00-00-000Z-card-last-interval-1-card-ease-factor-2-5-card-last-reviewed-2024-01-19T04-08-29-082Z-同步的定义：-使收发两端的信号在时间上保持步调一致-按照同步的功用不同分类-载波同步-位同步-群（帧）同步-网同步-1-7-数字通信的优缺点-优点-1-抗干扰能力强，且噪声不积累-2-传输差错可控-3-便于用现代数字信号处理技术对数字信息进行处理、变换、存储。-（便于将来自不同信源的信号综合到一起传输）-4-易于集成，使得通信设备微型化，重量轻-5-易于加密处理，且保密性好-缺点-1-需要较大的传输带宽-2-对同步要求高-1-8-信号复用方式-频分复用-频分复用是用频谱搬移的方法是不同信号占据不同的频率范围；-时分复用-时分复用是用脉冲调制的方法使不同的信号占据不同的时间区间；-码分复用-码分复用是用正交的脉冲序列分别携带不同的信号。-1-8-1-信号特征分类-card-last-interval-1-card-repeats-1-card-ease-factor-2-5-card-next-schedule-2024-01-20T16-00-00-000Z-card-last-reviewed-2024-01-19T17-06-59-448Z-card-last-score-1-模拟通信系统-数字通信系统-1-8-2-按照传输媒介分类-有线通信系统-无线通信系统-1-9-单工、半双工、全双工通信-card-last-interval-4-card-repeats-1-card-ease-factor-2-36-card-next-schedule-2024-01-24T15-18-29-552Z-card-last-reviewed-2024-01-20T15-18-29-553Z-card-last-score-3-单工通信-消息智能单方向传输的工作方式-半双工通信-通信双方都能收发消息，但不能同时收发发工作方式-全双工通信-通信双方可以同时进行收发消息的工作方式-1-11-通信系统的主要性能指标-有效性-指传输一定信息量所占用的信道资源（频带宽度和时间间隔）-传输的“速度”问题-可靠性-指接收信息的准确程度-传输的“质量”问题-模拟通信系统-有效性：-可用-信号带宽-来度量-可靠性：可用-接收端最终输出信噪比-来度量-数字通信系统-有效性：用-传输速率-和-频带利用率-来度量-码元传输速率-R-B-定义：单位时间传送的码元树木，单位是波特（Baud-简称B）-R-B-frac-1-T-T：一个码元持续时间-信息传输速率-R-b-定义：单位时间内传递的平均信息量或比特数，单位是比特每秒（bit-s-b-s-bps）-码元速率和信息速率的关系：-R-b-R-Blog-2M-M是进制数-频带利用率-定义：单位带宽内的传输速率-eta-frac-R-B-B-B-Hz-eta-b-frac-R-b-B-bit-s-Hz-可靠性：用-差错率-来衡量，差错率常用-误码率-和-误信率-表示-误码率-P-e-P-e-frac-错误码元数-传输总码元数-误信率-P-b-误比特率-P-b-frac-错误比特数-传输总比特数-注：二进制中，存在-P-e-P-b"><a href="#第一章-1-1-通信的目的-传递消息中的信息-1-2-信息的定义-消息中包含的有效内容-1-3-模拟信号与数字信号的参量-模拟信号的参量取值是连续（不可数、无穷多）的（抽样信号未量化仍为模拟信号）-数字信号的参量取值是可数的有限的-1-5-模拟通信系统一般过程-1-6-数字通信系统模型-card-last-interval-1-card-repeats-1-card-ease-factor-2-5-card-next-schedule-2024-01-19T16-00-00-000Z-card-last-reviewed-2024-01-19T04-08-27-407Z-card-last-score-1-1-6-1-信源编码与译码的目的-card-last-interval-1-card-repeats-1-card-ease-factor-2-5-card-next-schedule-2024-01-19T16-00-00-000Z-card-last-reviewed-2024-01-19T04-08-28-378Z-card-last-score-1-①-提高信息传输的有效性-②-完成模-数转化-1-6-2-信道编码与译码的目的-card-last-interval-1-card-repeats-1-card-ease-factor-2-5-card-next-schedule-2024-01-19T16-00-00-000Z-card-last-reviewed-2024-01-19T04-08-28-770Z-card-last-score-1-增强抗干扰能力，提高可靠性-1-6-3-同步的分类-card-last-score-1-card-repeats-1-card-next-schedule-2024-01-19T16-00-00-000Z-card-last-interval-1-card-ease-factor-2-5-card-last-reviewed-2024-01-19T04-08-29-082Z-同步的定义：-使收发两端的信号在时间上保持步调一致-按照同步的功用不同分类-载波同步-位同步-群（帧）同步-网同步-1-7-数字通信的优缺点-优点-1-抗干扰能力强，且噪声不积累-2-传输差错可控-3-便于用现代数字信号处理技术对数字信息进行处理、变换、存储。-（便于将来自不同信源的信号综合到一起传输）-4-易于集成，使得通信设备微型化，重量轻-5-易于加密处理，且保密性好-缺点-1-需要较大的传输带宽-2-对同步要求高-1-8-信号复用方式-频分复用-频分复用是用频谱搬移的方法是不同信号占据不同的频率范围；-时分复用-时分复用是用脉冲调制的方法使不同的信号占据不同的时间区间；-码分复用-码分复用是用正交的脉冲序列分别携带不同的信号。-1-8-1-信号特征分类-card-last-interval-1-card-repeats-1-card-ease-factor-2-5-card-next-schedule-2024-01-20T16-00-00-000Z-card-last-reviewed-2024-01-19T17-06-59-448Z-card-last-score-1-模拟通信系统-数字通信系统-1-8-2-按照传输媒介分类-有线通信系统-无线通信系统-1-9-单工、半双工、全双工通信-card-last-interval-4-card-repeats-1-card-ease-factor-2-36-card-next-schedule-2024-01-24T15-18-29-552Z-card-last-reviewed-2024-01-20T15-18-29-553Z-card-last-score-3-单工通信-消息智能单方向传输的工作方式-半双工通信-通信双方都能收发消息，但不能同时收发发工作方式-全双工通信-通信双方可以同时进行收发消息的工作方式-1-11-通信系统的主要性能指标-有效性-指传输一定信息量所占用的信道资源（频带宽度和时间间隔）-传输的“速度”问题-可靠性-指接收信息的准确程度-传输的“质量”问题-模拟通信系统-有效性：-可用-信号带宽-来度量-可靠性：可用-接收端最终输出信噪比-来度量-数字通信系统-有效性：用-传输速率-和-频带利用率-来度量-码元传输速率-R-B-定义：单位时间传送的码元树木，单位是波特（Baud-简称B）-R-B-frac-1-T-T：一个码元持续时间-信息传输速率-R-b-定义：单位时间内传递的平均信息量或比特数，单位是比特每秒（bit-s-b-s-bps）-码元速率和信息速率的关系：-R-b-R-Blog-2M-M是进制数-频带利用率-定义：单位带宽内的传输速率-eta-frac-R-B-B-B-Hz-eta-b-frac-R-b-B-bit-s-Hz-可靠性：用-差错率-来衡量，差错率常用-误码率-和-误信率-表示-误码率-P-e-P-e-frac-错误码元数-传输总码元数-误信率-P-b-误比特率-P-b-frac-错误比特数-传输总比特数-注：二进制中，存在-P-e-P-b" class="headerlink" title="第一章  - 1.1 通信的目的      - 传递消息中的信息  - 1.2 信息的定义      - 消息中包含的有效内容  - 1.3 模拟信号与数字信号的参量      - 模拟信号的参量取值是连续（不可数、无穷多）的（抽样信号未量化仍为模拟信号）      - 数字信号的参量取值是可数的有限的  - 1.5 模拟通信系统一般过程      -  - ^^1.6 数字通信系统模型^^    card-last-interval:: -1    card-repeats:: 1    card-ease-factor:: 2.5    card-next-schedule:: 2024-01-19T16:00:00.000Z    card-last-reviewed:: 2024-01-19T04:08:27.407Z    card-last-score:: 1      -   - ^^1.6.1 信源编码与译码的目的^^    card-last-interval:: -1    card-repeats:: 1    card-ease-factor:: 2.5    card-next-schedule:: 2024-01-19T16:00:00.000Z    card-last-reviewed:: 2024-01-19T04:08:28.378Z    card-last-score:: 1      - ① 提高信息传输的有效性      - ② 完成模&#x2F;数转化  - ^^1.6.2 信道编码与译码的目的^^    card-last-interval:: -1    card-repeats:: 1    card-ease-factor:: 2.5    card-next-schedule:: 2024-01-19T16:00:00.000Z    card-last-reviewed:: 2024-01-19T04:08:28.770Z    card-last-score:: 1      - 增强抗干扰能力，提高可靠性  - ^^1.6.3 同步的分类^^    card-last-score:: 1    card-repeats:: 1    card-next-schedule:: 2024-01-19T16:00:00.000Z    card-last-interval:: -1    card-ease-factor:: 2.5    card-last-reviewed:: 2024-01-19T04:08:29.082Z      - 同步的定义：          - 使收发两端的信号在时间上保持步调一致      - 按照同步的功用不同分类          - 载波同步          - 位同步          - 群（帧）同步          - 网同步  - ^^1.7 数字通信的优缺点^^      - 优点          - 1.抗干扰能力强，且噪声不积累          - 2.传输差错可控          - 3.便于用现代数字信号处理技术对数字信息进行处理、变换、存储。            （便于将来自不同信源的信号综合到一起传输）          - 4.易于集成，使得通信设备微型化，重量轻          - 5.易于加密处理，且保密性好      - 缺点          - 1.需要较大的传输带宽          - 2.对同步要求高  - ^^1.8 信号复用方式^^      - 频分复用          - ^^频分复用是用频谱搬移的方法是不同信号占据不同的频率范围；^^      - 时分复用          - ^^时分复用是用脉冲调制的方法使不同的信号占据不同的时间区间；^^      - 码分复用          - ^^码分复用是用正交的脉冲序列分别携带不同的信号。^^      -  - 1.8.1 信号特征分类    card-last-interval:: -1    card-repeats:: 1    card-ease-factor:: 2.5    card-next-schedule:: 2024-01-20T16:00:00.000Z    card-last-reviewed:: 2024-01-19T17:06:59.448Z    card-last-score:: 1      - 模拟通信系统      - 数字通信系统  - 1.8.2 按照传输媒介分类      - 有线通信系统      - 无线通信系统  - 1.9 单工、半双工、全双工通信    card-last-interval:: 4    card-repeats:: 1    card-ease-factor:: 2.36    card-next-schedule:: 2024-01-24T15:18:29.552Z    card-last-reviewed:: 2024-01-20T15:18:29.553Z    card-last-score:: 3      - 单工通信          - 消息智能单方向传输的工作方式      - 半双工通信          - 通信双方都能收发消息，但不能同时收发发工作方式      - 全双工通信          - 通信双方可以同时进行收发消息的工作方式  - ^^1.11 通信系统的主要性能指标^^      - 有效性          - 指传输一定信息量所占用的信道资源（频带宽度和时间间隔）          - 传输的“速度”问题      - 可靠性          - 指接收信息的准确程度          - 传输的“质量”问题      - 模拟通信系统          - 有效性： 可用^^信号带宽^^来度量          - 可靠性：可用^^接收端最终输出信噪比^^来度量      - 数字通信系统          - 有效性：用^^传输速率^^和^^频带利用率^^来度量              - 码元传输速率 $R_B$                  - 定义：单位时间传送的码元树木，单位是波特（Baud,简称B）                  - $R_B &#x3D; \frac{1}{T}$                      - T：一个码元持续时间              - 信息传输速率 $R_b$                  - 定义：单位时间内传递的平均信息量或比特数，单位是比特每秒（bit&#x2F;s,b&#x2F;s,bps）                  - 码元速率和信息速率的关系：                      - $R_b &#x3D; R_Blog_2M$                      - M是进制数              - 频带利用率                  - 定义：单位带宽内的传输速率                  - $\eta &#x3D; \frac{R_B}{B} (B&#x2F;Hz)$                  - $\eta_b &#x3D;\frac{R_b}{B}((bit&#x2F;s) &#x2F;Hz)$          - 可靠性：用^^差错率^^来衡量，差错率常用^^误码率^^和^^误信率^^表示              - 误码率 $P_e$                  - $P_e &#x3D; \frac{错误码元数}{传输总码元数}$              - 误信率 $P_b$ (误比特率)                  - $P_b &#x3D; \frac{错误比特数}{传输总比特数}$              - 注：二进制中，存在 $P_e &#x3D; P_b$          -          -"></a>第一章<br>  - 1.1 通信的目的<br>      - 传递消息中的<strong>信息</strong><br>  - 1.2 信息的定义<br>      - 消息中包含的<strong>有效内容</strong><br>  - 1.3 模拟信号与数字信号的参量<br>      - 模拟信号的参量取值是连续（不可数、无穷多）的（抽样信号未量化仍为模拟信号）<br>      - 数字信号的参量取值是可数的有限的<br>  - 1.5 模拟通信系统一般过程<br>      -<br>  - ^^1.6 数字通信系统模型^^<br>    card-last-interval:: -1<br>    card-repeats:: 1<br>    card-ease-factor:: 2.5<br>    card-next-schedule:: 2024-01-19T16:00:00.000Z<br>    card-last-reviewed:: 2024-01-19T04:08:27.407Z<br>    card-last-score:: 1<br>      - <img src="/../assets/image_1705637027655_0.png" alt="image.png"><br>  - ^^1.6.1 <strong>信源</strong>编码与译码的目的^^<br>    card-last-interval:: -1<br>    card-repeats:: 1<br>    card-ease-factor:: 2.5<br>    card-next-schedule:: 2024-01-19T16:00:00.000Z<br>    card-last-reviewed:: 2024-01-19T04:08:28.378Z<br>    card-last-score:: 1<br>      - ① 提高信息传输的有效性<br>      - ② 完成模&#x2F;数转化<br>  - ^^1.6.2 <strong>信道</strong>编码与译码的目的^^<br>    card-last-interval:: -1<br>    card-repeats:: 1<br>    card-ease-factor:: 2.5<br>    card-next-schedule:: 2024-01-19T16:00:00.000Z<br>    card-last-reviewed:: 2024-01-19T04:08:28.770Z<br>    card-last-score:: 1<br>      - 增强抗干扰能力，提高可靠性<br>  - ^^1.6.3 同步的分类^^<br>    card-last-score:: 1<br>    card-repeats:: 1<br>    card-next-schedule:: 2024-01-19T16:00:00.000Z<br>    card-last-interval:: -1<br>    card-ease-factor:: 2.5<br>    card-last-reviewed:: 2024-01-19T04:08:29.082Z<br>      - 同步的定义：<br>          - 使收发两端的信号在时间上保持步调一致<br>      - 按照同步的功用不同分类<br>          - 载波同步<br>          - 位同步<br>          - 群（帧）同步<br>          - 网同步<br>  - <strong>^^1.7 数字通信的优缺点^^</strong><br>      - 优点<br>          - 1.抗干扰能力强，且噪声不积累<br>          - 2.传输差错可控<br>          - 3.便于用现代数字信号处理技术对数字信息进行处理、变换、存储。<br>            （便于将来自不同信源的信号综合到一起传输）<br>          - 4.易于集成，使得通信设备微型化，重量轻<br>          - 5.易于加密处理，且保密性好<br>      - 缺点<br>          - 1.需要较大的传输带宽<br>          - 2.对同步要求高<br>  - ^^1.8 信号复用方式^^<br>      - <strong>频分复用</strong><br>          - ^^频分复用是用频谱搬移的方法是不同信号占据不同的频率范围；^^<br>      - <strong>时分复用</strong><br>          - ^^时分复用是用脉冲调制的方法使不同的信号占据不同的时间区间；^^<br>      - <strong>码分复用</strong><br>          - ^^码分复用是用正交的脉冲序列分别携带不同的信号。^^<br>      -<br>  - 1.8.1 信号特征分类<br>    card-last-interval:: -1<br>    card-repeats:: 1<br>    card-ease-factor:: 2.5<br>    card-next-schedule:: 2024-01-20T16:00:00.000Z<br>    card-last-reviewed:: 2024-01-19T17:06:59.448Z<br>    card-last-score:: 1<br>      - 模拟通信系统<br>      - 数字通信系统<br>  - 1.8.2 按照传输媒介分类<br>      - 有线通信系统<br>      - 无线通信系统<br>  - 1.9 单工、半双工、全双工通信<br>    card-last-interval:: 4<br>    card-repeats:: 1<br>    card-ease-factor:: 2.36<br>    card-next-schedule:: 2024-01-24T15:18:29.552Z<br>    card-last-reviewed:: 2024-01-20T15:18:29.553Z<br>    card-last-score:: 3<br>      - 单工通信<br>          - 消息智能单方向传输的工作方式<br>      - 半双工通信<br>          - 通信双方都能收发消息，但不能同时收发发工作方式<br>      - 全双工通信<br>          - 通信双方可以同时进行收发消息的工作方式<br>  - ^^1.11 通信系统的主要性能指标^^<br>      - <strong>有效性</strong><br>          - 指传输一定信息量所占用的<strong>信道资源</strong>（频带宽度和时间间隔）<br>          - 传输的“速度”问题<br>      - <strong>可靠性</strong><br>          - 指接收信息的<strong>准确程度</strong><br>          - 传输的“质量”问题<br>      - <strong>模拟通信系统</strong><br>          - 有效性： 可用<strong>^^信号带宽^^</strong>来度量<br>          - 可靠性：可用<strong>^^接收端最终输出信噪比^^</strong>来度量<br>      - <strong>数字通信系统</strong><br>          - 有效性：用<strong>^^传输速率^^</strong>和<strong>^^频带利用率^^</strong>来度量<br>              - 码元传输速率 $R_B$<br>                  - 定义：单位时间传送的码元树木，单位是波特（Baud,简称B）<br>                  - $R_B &#x3D; \frac{1}{T}$<br>                      - T：一个码元持续时间<br>              - 信息传输速率 $R_b$<br>                  - 定义：单位时间内传递的平均信息量或比特数，单位是比特每秒（bit&#x2F;s,b&#x2F;s,bps）<br>                  - 码元速率和信息速率的关系：<br>                      - $R_b &#x3D; R_Blog_2M$<br>                      - M是进制数<br>              - 频带利用率<br>                  - 定义：单位带宽内的传输速率<br>                  - $\eta &#x3D; \frac{R_B}{B} (B&#x2F;Hz)$<br>                  - $\eta_b &#x3D;\frac{R_b}{B}((bit&#x2F;s) &#x2F;Hz)$<br>          - 可靠性：用^^<strong>差错率</strong>^^来衡量，差错率常用<strong>^^误码率^^</strong>和<strong>^^误信率^^</strong>表示<br>              - 误码率 $P_e$<br>                  - $P_e &#x3D; \frac{错误码元数}{传输总码元数}$<br>              - 误信率 $P_b$ (误比特率)<br>                  - $P_b &#x3D; \frac{错误比特数}{传输总比特数}$<br>              - 注：二进制中，存在 $P_e &#x3D; P_b$<br>          -<br>          -</h2></li>
+<li><strong>^^5.18 AM、FM非相干解调的门限效应^^</strong> <ul>
+<li>当 $\frac{S_i}{N_i}$ (输入信噪比)低于一定数值时，解调器的输出信噪比 $\frac{S_o}{N_o}$ 急剧恶化，这种现象称为解调器的<strong>门限效应</strong></li>
+<li>门限值：出现门限效应时所对应的输入信噪比值称为门限值</li>
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+
+         
+    </div>
+    
+     
+  </div>
+  
+    
+<nav id="article-nav">
+  <a class="article-nav-btn left  disabled "
+     >
+    <i class="fa-solid fa-angle-left"></i>
+    <p class="title-text">
+        
+    </p>
+  </a>
+  <a class="article-nav-btn right "
+    
+      href="/2024/03/06/hello-world/"
+      title="Hello World"
+     >
+
+    <p class="title-text">
+      
+        Hello World
+        
+    </p>
+    <i class="fa-solid fa-angle-right"></i>
+  </a>
+</nav>
+
+
+  
+</article>
+
+ 
+    </div>
+    <div id="footer-wrapper">
+      <footer id="footer">
+  
+  <div id="footer-info" class="inner">
+    
+    &copy; 2024 Your Name<br>
+    Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> & Theme <a target="_blank" rel="noopener" href="https://github.com/saicaca/hexo-theme-vivia">Vivia</a>
+  </div>
+</footer>
+
+    </div>
+    <div class="back-to-top-wrapper">
+    <button id="back-to-top-btn" class="back-to-top-btn hide" onclick="topFunction()">
+        <i class="fa-solid fa-angle-up"></i>
+    </button>
+</div>
+
+<script>
+    function topFunction() {
+        window.scroll({ top: 0, behavior: 'smooth' });
+    }
+    let btn = document.getElementById('back-to-top-btn');
+    function scrollFunction() {
+        if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+            btn.classList.remove('hide')
+        } else {
+            btn.classList.add('hide')
+        }
+    }
+    window.onscroll = function() {
+        scrollFunction();
+    }
+</script>
+
+  </div>
+  <script src="/js/light-dark-switch.js"></script>
+</body>
+</html>
