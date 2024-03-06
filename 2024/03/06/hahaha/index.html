@@ -20,19 +20,20 @@
   <link rel="preload" href="/CentriFugalForcehexo.github.io/css/fonts/Roboto-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
   <link rel="preload" href="/CentriFugalForcehexo.github.io/css/fonts/Roboto-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
-  <meta name="description" content="第一章  - 1.1 通信的目的      - 传递消息中的信息  - 1.2 信息的定义      - 消息中包含的有效内容  - 1.3 模拟信号与数字信号的参量      - 模拟信号的参量取值是连续（不可数、无穷多）的（抽样信号未量化仍为模拟信号）      - 数字信号的参量取值是可数的有限的  - 1.5 模拟通信系统一般过程      -  - ^^1.6 数字通信系统模型^^">
+  <meta name="description" content="This is intended as a quick reference and showcase. For more complete info, see John Gruber’s original spec and the Github-flavored Markdown info page. This cheatsheet is specifically Markdown Here’s">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hahaha">
 <meta property="og:url" content="https://centrifugalforce.github.io/CentriFugalForcehexo.github.io/2024/03/06/hahaha/index.html">
 <meta property="og:site_name" content="CentriFugalForce">
-<meta property="og:description" content="第一章  - 1.1 通信的目的      - 传递消息中的信息  - 1.2 信息的定义      - 消息中包含的有效内容  - 1.3 模拟信号与数字信号的参量      - 模拟信号的参量取值是连续（不可数、无穷多）的（抽样信号未量化仍为模拟信号）      - 数字信号的参量取值是可数的有限的  - 1.5 模拟通信系统一般过程      -  - ^^1.6 数字通信系统模型^^">
+<meta property="og:description" content="This is intended as a quick reference and showcase. For more complete info, see John Gruber’s original spec and the Github-flavored Markdown info page. This cheatsheet is specifically Markdown Here’s">
 <meta property="og:locale">
-<meta property="og:image" content="https://centrifugalforce.github.io/assets/image_1705637027655_0.png">
+<meta property="og:image" content="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png">
+<meta property="og:image" content="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png">
 <meta property="article:published_time" content="2024-03-06T05:56:29.000Z">
-<meta property="article:modified_time" content="2024-03-06T05:57:11.293Z">
+<meta property="article:modified_time" content="2024-03-06T06:02:20.035Z">
 <meta property="article:author" content="CentriFugalForce">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://centrifugalforce.github.io/assets/image_1705637027655_0.png">
+<meta name="twitter:image" content="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png">
   
     <link rel="alternate" href="/CentriFugalForcehexo.github.io/atom.xml" title="CentriFugalForce" type="application/atom+xml">
   
@@ -189,21 +190,168 @@
   
           </div>
           <div class="wordcount need-seperator meta-info">
-            3.6k words 
+            7.3k words 
           </div>
         </div>
         
       </header>
       <div class="e-content article-entry" itemprop="articleBody">
         
-          <ul>
-<li><h2 id="第一章-1-1-通信的目的-传递消息中的信息-1-2-信息的定义-消息中包含的有效内容-1-3-模拟信号与数字信号的参量-模拟信号的参量取值是连续（不可数、无穷多）的（抽样信号未量化仍为模拟信号）-数字信号的参量取值是可数的有限的-1-5-模拟通信系统一般过程-1-6-数字通信系统模型-card-last-interval-1-card-repeats-1-card-ease-factor-2-5-card-next-schedule-2024-01-19T16-00-00-000Z-card-last-reviewed-2024-01-19T04-08-27-407Z-card-last-score-1-1-6-1-信源编码与译码的目的-card-last-interval-1-card-repeats-1-card-ease-factor-2-5-card-next-schedule-2024-01-19T16-00-00-000Z-card-last-reviewed-2024-01-19T04-08-28-378Z-card-last-score-1-①-提高信息传输的有效性-②-完成模-数转化-1-6-2-信道编码与译码的目的-card-last-interval-1-card-repeats-1-card-ease-factor-2-5-card-next-schedule-2024-01-19T16-00-00-000Z-card-last-reviewed-2024-01-19T04-08-28-770Z-card-last-score-1-增强抗干扰能力，提高可靠性-1-6-3-同步的分类-card-last-score-1-card-repeats-1-card-next-schedule-2024-01-19T16-00-00-000Z-card-last-interval-1-card-ease-factor-2-5-card-last-reviewed-2024-01-19T04-08-29-082Z-同步的定义：-使收发两端的信号在时间上保持步调一致-按照同步的功用不同分类-载波同步-位同步-群（帧）同步-网同步-1-7-数字通信的优缺点-优点-1-抗干扰能力强，且噪声不积累-2-传输差错可控-3-便于用现代数字信号处理技术对数字信息进行处理、变换、存储。-（便于将来自不同信源的信号综合到一起传输）-4-易于集成，使得通信设备微型化，重量轻-5-易于加密处理，且保密性好-缺点-1-需要较大的传输带宽-2-对同步要求高-1-8-信号复用方式-频分复用-频分复用是用频谱搬移的方法是不同信号占据不同的频率范围；-时分复用-时分复用是用脉冲调制的方法使不同的信号占据不同的时间区间；-码分复用-码分复用是用正交的脉冲序列分别携带不同的信号。-1-8-1-信号特征分类-card-last-interval-1-card-repeats-1-card-ease-factor-2-5-card-next-schedule-2024-01-20T16-00-00-000Z-card-last-reviewed-2024-01-19T17-06-59-448Z-card-last-score-1-模拟通信系统-数字通信系统-1-8-2-按照传输媒介分类-有线通信系统-无线通信系统-1-9-单工、半双工、全双工通信-card-last-interval-4-card-repeats-1-card-ease-factor-2-36-card-next-schedule-2024-01-24T15-18-29-552Z-card-last-reviewed-2024-01-20T15-18-29-553Z-card-last-score-3-单工通信-消息智能单方向传输的工作方式-半双工通信-通信双方都能收发消息，但不能同时收发发工作方式-全双工通信-通信双方可以同时进行收发消息的工作方式-1-11-通信系统的主要性能指标-有效性-指传输一定信息量所占用的信道资源（频带宽度和时间间隔）-传输的“速度”问题-可靠性-指接收信息的准确程度-传输的“质量”问题-模拟通信系统-有效性：-可用-信号带宽-来度量-可靠性：可用-接收端最终输出信噪比-来度量-数字通信系统-有效性：用-传输速率-和-频带利用率-来度量-码元传输速率-R-B-定义：单位时间传送的码元树木，单位是波特（Baud-简称B）-R-B-frac-1-T-T：一个码元持续时间-信息传输速率-R-b-定义：单位时间内传递的平均信息量或比特数，单位是比特每秒（bit-s-b-s-bps）-码元速率和信息速率的关系：-R-b-R-Blog-2M-M是进制数-频带利用率-定义：单位带宽内的传输速率-eta-frac-R-B-B-B-Hz-eta-b-frac-R-b-B-bit-s-Hz-可靠性：用-差错率-来衡量，差错率常用-误码率-和-误信率-表示-误码率-P-e-P-e-frac-错误码元数-传输总码元数-误信率-P-b-误比特率-P-b-frac-错误比特数-传输总比特数-注：二进制中，存在-P-e-P-b"><a href="#第一章-1-1-通信的目的-传递消息中的信息-1-2-信息的定义-消息中包含的有效内容-1-3-模拟信号与数字信号的参量-模拟信号的参量取值是连续（不可数、无穷多）的（抽样信号未量化仍为模拟信号）-数字信号的参量取值是可数的有限的-1-5-模拟通信系统一般过程-1-6-数字通信系统模型-card-last-interval-1-card-repeats-1-card-ease-factor-2-5-card-next-schedule-2024-01-19T16-00-00-000Z-card-last-reviewed-2024-01-19T04-08-27-407Z-card-last-score-1-1-6-1-信源编码与译码的目的-card-last-interval-1-card-repeats-1-card-ease-factor-2-5-card-next-schedule-2024-01-19T16-00-00-000Z-card-last-reviewed-2024-01-19T04-08-28-378Z-card-last-score-1-①-提高信息传输的有效性-②-完成模-数转化-1-6-2-信道编码与译码的目的-card-last-interval-1-card-repeats-1-card-ease-factor-2-5-card-next-schedule-2024-01-19T16-00-00-000Z-card-last-reviewed-2024-01-19T04-08-28-770Z-card-last-score-1-增强抗干扰能力，提高可靠性-1-6-3-同步的分类-card-last-score-1-card-repeats-1-card-next-schedule-2024-01-19T16-00-00-000Z-card-last-interval-1-card-ease-factor-2-5-card-last-reviewed-2024-01-19T04-08-29-082Z-同步的定义：-使收发两端的信号在时间上保持步调一致-按照同步的功用不同分类-载波同步-位同步-群（帧）同步-网同步-1-7-数字通信的优缺点-优点-1-抗干扰能力强，且噪声不积累-2-传输差错可控-3-便于用现代数字信号处理技术对数字信息进行处理、变换、存储。-（便于将来自不同信源的信号综合到一起传输）-4-易于集成，使得通信设备微型化，重量轻-5-易于加密处理，且保密性好-缺点-1-需要较大的传输带宽-2-对同步要求高-1-8-信号复用方式-频分复用-频分复用是用频谱搬移的方法是不同信号占据不同的频率范围；-时分复用-时分复用是用脉冲调制的方法使不同的信号占据不同的时间区间；-码分复用-码分复用是用正交的脉冲序列分别携带不同的信号。-1-8-1-信号特征分类-card-last-interval-1-card-repeats-1-card-ease-factor-2-5-card-next-schedule-2024-01-20T16-00-00-000Z-card-last-reviewed-2024-01-19T17-06-59-448Z-card-last-score-1-模拟通信系统-数字通信系统-1-8-2-按照传输媒介分类-有线通信系统-无线通信系统-1-9-单工、半双工、全双工通信-card-last-interval-4-card-repeats-1-card-ease-factor-2-36-card-next-schedule-2024-01-24T15-18-29-552Z-card-last-reviewed-2024-01-20T15-18-29-553Z-card-last-score-3-单工通信-消息智能单方向传输的工作方式-半双工通信-通信双方都能收发消息，但不能同时收发发工作方式-全双工通信-通信双方可以同时进行收发消息的工作方式-1-11-通信系统的主要性能指标-有效性-指传输一定信息量所占用的信道资源（频带宽度和时间间隔）-传输的“速度”问题-可靠性-指接收信息的准确程度-传输的“质量”问题-模拟通信系统-有效性：-可用-信号带宽-来度量-可靠性：可用-接收端最终输出信噪比-来度量-数字通信系统-有效性：用-传输速率-和-频带利用率-来度量-码元传输速率-R-B-定义：单位时间传送的码元树木，单位是波特（Baud-简称B）-R-B-frac-1-T-T：一个码元持续时间-信息传输速率-R-b-定义：单位时间内传递的平均信息量或比特数，单位是比特每秒（bit-s-b-s-bps）-码元速率和信息速率的关系：-R-b-R-Blog-2M-M是进制数-频带利用率-定义：单位带宽内的传输速率-eta-frac-R-B-B-B-Hz-eta-b-frac-R-b-B-bit-s-Hz-可靠性：用-差错率-来衡量，差错率常用-误码率-和-误信率-表示-误码率-P-e-P-e-frac-错误码元数-传输总码元数-误信率-P-b-误比特率-P-b-frac-错误比特数-传输总比特数-注：二进制中，存在-P-e-P-b" class="headerlink" title="第一章  - 1.1 通信的目的      - 传递消息中的信息  - 1.2 信息的定义      - 消息中包含的有效内容  - 1.3 模拟信号与数字信号的参量      - 模拟信号的参量取值是连续（不可数、无穷多）的（抽样信号未量化仍为模拟信号）      - 数字信号的参量取值是可数的有限的  - 1.5 模拟通信系统一般过程      -  - ^^1.6 数字通信系统模型^^    card-last-interval:: -1    card-repeats:: 1    card-ease-factor:: 2.5    card-next-schedule:: 2024-01-19T16:00:00.000Z    card-last-reviewed:: 2024-01-19T04:08:27.407Z    card-last-score:: 1      -   - ^^1.6.1 信源编码与译码的目的^^    card-last-interval:: -1    card-repeats:: 1    card-ease-factor:: 2.5    card-next-schedule:: 2024-01-19T16:00:00.000Z    card-last-reviewed:: 2024-01-19T04:08:28.378Z    card-last-score:: 1      - ① 提高信息传输的有效性      - ② 完成模&#x2F;数转化  - ^^1.6.2 信道编码与译码的目的^^    card-last-interval:: -1    card-repeats:: 1    card-ease-factor:: 2.5    card-next-schedule:: 2024-01-19T16:00:00.000Z    card-last-reviewed:: 2024-01-19T04:08:28.770Z    card-last-score:: 1      - 增强抗干扰能力，提高可靠性  - ^^1.6.3 同步的分类^^    card-last-score:: 1    card-repeats:: 1    card-next-schedule:: 2024-01-19T16:00:00.000Z    card-last-interval:: -1    card-ease-factor:: 2.5    card-last-reviewed:: 2024-01-19T04:08:29.082Z      - 同步的定义：          - 使收发两端的信号在时间上保持步调一致      - 按照同步的功用不同分类          - 载波同步          - 位同步          - 群（帧）同步          - 网同步  - ^^1.7 数字通信的优缺点^^      - 优点          - 1.抗干扰能力强，且噪声不积累          - 2.传输差错可控          - 3.便于用现代数字信号处理技术对数字信息进行处理、变换、存储。            （便于将来自不同信源的信号综合到一起传输）          - 4.易于集成，使得通信设备微型化，重量轻          - 5.易于加密处理，且保密性好      - 缺点          - 1.需要较大的传输带宽          - 2.对同步要求高  - ^^1.8 信号复用方式^^      - 频分复用          - ^^频分复用是用频谱搬移的方法是不同信号占据不同的频率范围；^^      - 时分复用          - ^^时分复用是用脉冲调制的方法使不同的信号占据不同的时间区间；^^      - 码分复用          - ^^码分复用是用正交的脉冲序列分别携带不同的信号。^^      -  - 1.8.1 信号特征分类    card-last-interval:: -1    card-repeats:: 1    card-ease-factor:: 2.5    card-next-schedule:: 2024-01-20T16:00:00.000Z    card-last-reviewed:: 2024-01-19T17:06:59.448Z    card-last-score:: 1      - 模拟通信系统      - 数字通信系统  - 1.8.2 按照传输媒介分类      - 有线通信系统      - 无线通信系统  - 1.9 单工、半双工、全双工通信    card-last-interval:: 4    card-repeats:: 1    card-ease-factor:: 2.36    card-next-schedule:: 2024-01-24T15:18:29.552Z    card-last-reviewed:: 2024-01-20T15:18:29.553Z    card-last-score:: 3      - 单工通信          - 消息智能单方向传输的工作方式      - 半双工通信          - 通信双方都能收发消息，但不能同时收发发工作方式      - 全双工通信          - 通信双方可以同时进行收发消息的工作方式  - ^^1.11 通信系统的主要性能指标^^      - 有效性          - 指传输一定信息量所占用的信道资源（频带宽度和时间间隔）          - 传输的“速度”问题      - 可靠性          - 指接收信息的准确程度          - 传输的“质量”问题      - 模拟通信系统          - 有效性： 可用^^信号带宽^^来度量          - 可靠性：可用^^接收端最终输出信噪比^^来度量      - 数字通信系统          - 有效性：用^^传输速率^^和^^频带利用率^^来度量              - 码元传输速率 $R_B$                  - 定义：单位时间传送的码元树木，单位是波特（Baud,简称B）                  - $R_B &#x3D; \frac{1}{T}$                      - T：一个码元持续时间              - 信息传输速率 $R_b$                  - 定义：单位时间内传递的平均信息量或比特数，单位是比特每秒（bit&#x2F;s,b&#x2F;s,bps）                  - 码元速率和信息速率的关系：                      - $R_b &#x3D; R_Blog_2M$                      - M是进制数              - 频带利用率                  - 定义：单位带宽内的传输速率                  - $\eta &#x3D; \frac{R_B}{B} (B&#x2F;Hz)$                  - $\eta_b &#x3D;\frac{R_b}{B}((bit&#x2F;s) &#x2F;Hz)$          - 可靠性：用^^差错率^^来衡量，差错率常用^^误码率^^和^^误信率^^表示              - 误码率 $P_e$                  - $P_e &#x3D; \frac{错误码元数}{传输总码元数}$              - 误信率 $P_b$ (误比特率)                  - $P_b &#x3D; \frac{错误比特数}{传输总比特数}$              - 注：二进制中，存在 $P_e &#x3D; P_b$          -          -"></a>第一章<br>  - 1.1 通信的目的<br>      - 传递消息中的<strong>信息</strong><br>  - 1.2 信息的定义<br>      - 消息中包含的<strong>有效内容</strong><br>  - 1.3 模拟信号与数字信号的参量<br>      - 模拟信号的参量取值是连续（不可数、无穷多）的（抽样信号未量化仍为模拟信号）<br>      - 数字信号的参量取值是可数的有限的<br>  - 1.5 模拟通信系统一般过程<br>      -<br>  - ^^1.6 数字通信系统模型^^<br>    card-last-interval:: -1<br>    card-repeats:: 1<br>    card-ease-factor:: 2.5<br>    card-next-schedule:: 2024-01-19T16:00:00.000Z<br>    card-last-reviewed:: 2024-01-19T04:08:27.407Z<br>    card-last-score:: 1<br>      - <img src="/../assets/image_1705637027655_0.png" alt="image.png"><br>  - ^^1.6.1 <strong>信源</strong>编码与译码的目的^^<br>    card-last-interval:: -1<br>    card-repeats:: 1<br>    card-ease-factor:: 2.5<br>    card-next-schedule:: 2024-01-19T16:00:00.000Z<br>    card-last-reviewed:: 2024-01-19T04:08:28.378Z<br>    card-last-score:: 1<br>      - ① 提高信息传输的有效性<br>      - ② 完成模&#x2F;数转化<br>  - ^^1.6.2 <strong>信道</strong>编码与译码的目的^^<br>    card-last-interval:: -1<br>    card-repeats:: 1<br>    card-ease-factor:: 2.5<br>    card-next-schedule:: 2024-01-19T16:00:00.000Z<br>    card-last-reviewed:: 2024-01-19T04:08:28.770Z<br>    card-last-score:: 1<br>      - 增强抗干扰能力，提高可靠性<br>  - ^^1.6.3 同步的分类^^<br>    card-last-score:: 1<br>    card-repeats:: 1<br>    card-next-schedule:: 2024-01-19T16:00:00.000Z<br>    card-last-interval:: -1<br>    card-ease-factor:: 2.5<br>    card-last-reviewed:: 2024-01-19T04:08:29.082Z<br>      - 同步的定义：<br>          - 使收发两端的信号在时间上保持步调一致<br>      - 按照同步的功用不同分类<br>          - 载波同步<br>          - 位同步<br>          - 群（帧）同步<br>          - 网同步<br>  - <strong>^^1.7 数字通信的优缺点^^</strong><br>      - 优点<br>          - 1.抗干扰能力强，且噪声不积累<br>          - 2.传输差错可控<br>          - 3.便于用现代数字信号处理技术对数字信息进行处理、变换、存储。<br>            （便于将来自不同信源的信号综合到一起传输）<br>          - 4.易于集成，使得通信设备微型化，重量轻<br>          - 5.易于加密处理，且保密性好<br>      - 缺点<br>          - 1.需要较大的传输带宽<br>          - 2.对同步要求高<br>  - ^^1.8 信号复用方式^^<br>      - <strong>频分复用</strong><br>          - ^^频分复用是用频谱搬移的方法是不同信号占据不同的频率范围；^^<br>      - <strong>时分复用</strong><br>          - ^^时分复用是用脉冲调制的方法使不同的信号占据不同的时间区间；^^<br>      - <strong>码分复用</strong><br>          - ^^码分复用是用正交的脉冲序列分别携带不同的信号。^^<br>      -<br>  - 1.8.1 信号特征分类<br>    card-last-interval:: -1<br>    card-repeats:: 1<br>    card-ease-factor:: 2.5<br>    card-next-schedule:: 2024-01-20T16:00:00.000Z<br>    card-last-reviewed:: 2024-01-19T17:06:59.448Z<br>    card-last-score:: 1<br>      - 模拟通信系统<br>      - 数字通信系统<br>  - 1.8.2 按照传输媒介分类<br>      - 有线通信系统<br>      - 无线通信系统<br>  - 1.9 单工、半双工、全双工通信<br>    card-last-interval:: 4<br>    card-repeats:: 1<br>    card-ease-factor:: 2.36<br>    card-next-schedule:: 2024-01-24T15:18:29.552Z<br>    card-last-reviewed:: 2024-01-20T15:18:29.553Z<br>    card-last-score:: 3<br>      - 单工通信<br>          - 消息智能单方向传输的工作方式<br>      - 半双工通信<br>          - 通信双方都能收发消息，但不能同时收发发工作方式<br>      - 全双工通信<br>          - 通信双方可以同时进行收发消息的工作方式<br>  - ^^1.11 通信系统的主要性能指标^^<br>      - <strong>有效性</strong><br>          - 指传输一定信息量所占用的<strong>信道资源</strong>（频带宽度和时间间隔）<br>          - 传输的“速度”问题<br>      - <strong>可靠性</strong><br>          - 指接收信息的<strong>准确程度</strong><br>          - 传输的“质量”问题<br>      - <strong>模拟通信系统</strong><br>          - 有效性： 可用<strong>^^信号带宽^^</strong>来度量<br>          - 可靠性：可用<strong>^^接收端最终输出信噪比^^</strong>来度量<br>      - <strong>数字通信系统</strong><br>          - 有效性：用<strong>^^传输速率^^</strong>和<strong>^^频带利用率^^</strong>来度量<br>              - 码元传输速率 $R_B$<br>                  - 定义：单位时间传送的码元树木，单位是波特（Baud,简称B）<br>                  - $R_B &#x3D; \frac{1}{T}$<br>                      - T：一个码元持续时间<br>              - 信息传输速率 $R_b$<br>                  - 定义：单位时间内传递的平均信息量或比特数，单位是比特每秒（bit&#x2F;s,b&#x2F;s,bps）<br>                  - 码元速率和信息速率的关系：<br>                      - $R_b &#x3D; R_Blog_2M$<br>                      - M是进制数<br>              - 频带利用率<br>                  - 定义：单位带宽内的传输速率<br>                  - $\eta &#x3D; \frac{R_B}{B} (B&#x2F;Hz)$<br>                  - $\eta_b &#x3D;\frac{R_b}{B}((bit&#x2F;s) &#x2F;Hz)$<br>          - 可靠性：用^^<strong>差错率</strong>^^来衡量，差错率常用<strong>^^误码率^^</strong>和<strong>^^误信率^^</strong>表示<br>              - 误码率 $P_e$<br>                  - $P_e &#x3D; \frac{错误码元数}{传输总码元数}$<br>              - 误信率 $P_b$ (误比特率)<br>                  - $P_b &#x3D; \frac{错误比特数}{传输总比特数}$<br>              - 注：二进制中，存在 $P_e &#x3D; P_b$<br>          -<br>          -</h2></li>
-<li><strong>^^5.18 AM、FM非相干解调的门限效应^^</strong> <ul>
-<li>当 $\frac{S_i}{N_i}$ (输入信噪比)低于一定数值时，解调器的输出信噪比 $\frac{S_o}{N_o}$ 急剧恶化，这种现象称为解调器的<strong>门限效应</strong></li>
-<li>门限值：出现门限效应时所对应的输入信噪比值称为门限值</li>
+          <p>This is intended as a quick reference and showcase. For more complete info, see <a target="_blank" rel="noopener" href="http://daringfireball.net/projects/markdown/">John Gruber’s original spec</a> and the <a target="_blank" rel="noopener" href="http://github.github.com/github-flavored-markdown/">Github-flavored Markdown info page</a>.</p>
+<p>This cheatsheet is specifically <em>Markdown Here’s</em> version of Github-flavored Markdown. This differs slightly in styling and syntax from what Github uses, so what you see below might vary a little from what you get in a <em>Markdown Here</em> email, but it should be pretty close.</p>
+<h5 id="Table-of-Contents"><a href="#Table-of-Contents" class="headerlink" title="Table of Contents"></a>Table of Contents</h5><p><a href="#headers">Headers</a><br><a href="#emphasis">Emphasis</a><br><a href="#lists">Lists</a><br><a href="#links">Links</a><br><a href="#images">Images</a><br><a href="#code">Code and Syntax Highlighting</a><br><a href="#blockquotes">Blockquotes</a><br><a href="#html">Inline HTML</a><br><a href="#hr">Horizontal Rule</a><br><a href="#lines">Line Breaks</a>  </p>
+<a name="headers"/>
+## Headers
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"># H1</span><br><span class="line">## H2</span><br><span class="line">### H3</span><br><span class="line">#### H4</span><br><span class="line">##### H5</span><br><span class="line">###### H6</span><br><span class="line"></span><br><span class="line">Alternatively, for H1 and H2, an underline-ish style:</span><br><span class="line"></span><br><span class="line">Alt-H1</span><br><span class="line">======</span><br><span class="line"></span><br><span class="line">Alt-H2</span><br><span class="line">------</span><br></pre></td></tr></table></figure>
+
+<h1 id="H1"><a href="#H1" class="headerlink" title="H1"></a>H1</h1><h2 id="H2"><a href="#H2" class="headerlink" title="H2"></a>H2</h2><h3 id="H3"><a href="#H3" class="headerlink" title="H3"></a>H3</h3><h4 id="H4"><a href="#H4" class="headerlink" title="H4"></a>H4</h4><h5 id="H5"><a href="#H5" class="headerlink" title="H5"></a>H5</h5><h6 id="H6"><a href="#H6" class="headerlink" title="H6"></a>H6</h6><p>Alternatively, for H1 and H2, an underline-ish style:</p>
+<h1 id="Alt-H1"><a href="#Alt-H1" class="headerlink" title="Alt-H1"></a>Alt-H1</h1><h2 id="Alt-H2"><a href="#Alt-H2" class="headerlink" title="Alt-H2"></a>Alt-H2</h2><a name="emphasis"/>
+## Emphasis
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Emphasis, aka italics, with *asterisks* or _underscores_.</span><br><span class="line"></span><br><span class="line">Strong emphasis, aka bold, with **asterisks** or __underscores__.</span><br><span class="line"></span><br><span class="line">Combined emphasis with **asterisks and _underscores_**.</span><br></pre></td></tr></table></figure>
+
+<p>Emphasis, aka italics, with <em>asterisks</em> or <em>underscores</em>.</p>
+<p>Strong emphasis, aka bold, with <strong>asterisks</strong> or <strong>underscores</strong>.</p>
+<p>Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.</p>
+<a name="lists"/>
+## Lists
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">1. First ordered list item</span><br><span class="line">2. Another item</span><br><span class="line">  * Unordered sub-list. </span><br><span class="line">1. Actual numbers don&#x27;t matter, just that it&#x27;s a number</span><br><span class="line">  1. Ordered sub-list</span><br><span class="line">4. And another item.  </span><br><span class="line">   </span><br><span class="line">   Some text that should be aligned with the above item.</span><br><span class="line"></span><br><span class="line">* Unordered list can use asterisks</span><br><span class="line">- Or minuses</span><br><span class="line">+ Or pluses</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>First ordered list item</li>
+<li>Another item</li>
+</ol>
+<ul>
+<li>Unordered sub-list.</li>
 </ul>
+<ol>
+<li><p>Actual numbers don’t matter, just that it’s a number</p>
 </li>
+<li><p>Ordered sub-list</p>
+</li>
+<li><p>And another item.  </p>
+<p>Some text that should be aligned with the above item.</p>
+</li>
+</ol>
+<ul>
+<li>Unordered list can use asterisks</li>
 </ul>
+<ul>
+<li>Or minuses</li>
+</ul>
+<ul>
+<li>Or pluses</li>
+</ul>
+<a name="links"/>
+## Links
+
+<p>There are two ways to create links.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">[I&#x27;m an inline-style link](https://www.google.com)</span><br><span class="line"></span><br><span class="line">[I&#x27;m a reference-style link][Arbitrary case-insensitive reference text]</span><br><span class="line"></span><br><span class="line">[You can use numbers for reference-style link definitions][1]</span><br><span class="line"></span><br><span class="line">Or leave it empty and use the [link text itself][]</span><br><span class="line"></span><br><span class="line">Some text to show that the reference links can follow later.</span><br><span class="line"></span><br><span class="line">[arbitrary case-insensitive reference text]: https://www.mozilla.org</span><br><span class="line">[1]: http://slashdot.org</span><br><span class="line">[link text itself]: http://www.reddit.com</span><br></pre></td></tr></table></figure>
+
+<p><a target="_blank" rel="noopener" href="https://www.google.com/">I’m an inline-style link</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.mozilla.org/">I’m a reference-style link</a></p>
+<p><a target="_blank" rel="noopener" href="http://slashdot.org/">You can use numbers for reference-style link definitions</a></p>
+<p>Or leave it empty and use the <a target="_blank" rel="noopener" href="http://www.reddit.com/">link text itself</a></p>
+<p>Some text to show that the reference links can follow later.</p>
+<a name="images"/>
+## Images
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">Here&#x27;s our logo (hover to see the title text):</span><br><span class="line"></span><br><span class="line">Inline-style: </span><br><span class="line">![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png &quot;Logo Title Text 1&quot;)</span><br><span class="line"></span><br><span class="line">Reference-style: </span><br><span class="line">![alt text][logo]</span><br><span class="line"></span><br><span class="line">[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png &quot;Logo Title Text 2&quot;</span><br></pre></td></tr></table></figure>
+
+<p>Here’s our logo (hover to see the title text):</p>
+<p>Inline-style:<br><img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alt text" title="Logo Title Text 1"></p>
+<p>Reference-style:<br><img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alt text" title="Logo Title Text 2"></p>
+<a name="code"/>
+## Code and Syntax Highlighting
+
+<p>Code blocks are part of the Markdown spec, but syntax highlighting isn’t. However, many renderers – like Github’s and <em>Markdown Here</em> – support syntax highlighting. <em>Markdown Here</em> supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the <a target="_blank" rel="noopener" href="http://softwaremaniacs.org/media/soft/highlight/test.html">highlight.js demo page</a>.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Inline `code` has `back-ticks around` it.</span><br></pre></td></tr></table></figure>
+
+<p>Inline <code>code</code> has <code>back-ticks around</code> it.</p>
+<p>Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces. I recommend only using the fenced code blocks – they’re easier and only they support syntax highlighting.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">```javascript</span><br><span class="line">var s = &quot;JavaScript syntax highlighting&quot;;</span><br><span class="line">alert(s);</span><br></pre></td></tr></table></figure>
+ <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">s = <span class="string">&quot;Python syntax highlighting&quot;</span></span><br><span class="line"><span class="built_in">print</span> s</span><br></pre></td></tr></table></figure>
+ <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">No language indicated, so no syntax highlighting. </span><br><span class="line">But let&#x27;s throw in a &lt;b&gt;tag&lt;/b&gt;.</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">```javascript</span><br><span class="line">var s = &quot;JavaScript syntax highlighting&quot;;</span><br><span class="line">alert(s);</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">s = <span class="string">&quot;Python syntax highlighting&quot;</span></span><br><span class="line"><span class="built_in">print</span> s</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">No language indicated, so no syntax highlighting in Markdown Here (varies on Github). </span><br><span class="line">But let&#x27;s throw in a &lt;b&gt;tag&lt;/b&gt;.</span><br></pre></td></tr></table></figure>
+
+<p>(Github Wiki pages don’t seem to support syntax highlighting, so the above won’t be colourful (the strings are not red, for example). Try it out in a <em>Markdown Here</em> email or a Github Markdown README or Github Issue – you can preview a new Issue without submitting it.)</p>
+<p>Again, to see what languages are available for highlighting, and how to write those language names, see the <a target="_blank" rel="noopener" href="http://softwaremaniacs.org/media/soft/highlight/test.html">highlight.js demo page</a>.</p>
+<a name="blockquotes"/>
+## Blockquotes
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&gt; Blockquotes are very handy in email to emulate reply text.</span><br><span class="line">&gt; This line is part of the same quote.</span><br><span class="line"></span><br><span class="line">Quote break.</span><br><span class="line"></span><br><span class="line">&gt; This is a very long line that will still be quoted properly when it wraps. Oh boy let&#x27;s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. </span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>Blockquotes are very handy in email to emulate reply text.<br>This line is part of the same quote.</p>
+</blockquote>
+<p>Quote break.</p>
+<blockquote>
+<p>This is a very long line that will still be quoted properly when it wraps. Oh boy let’s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote. </p>
+</blockquote>
+<a name="html"/>
+## Inline HTML
+
+<p>You can also use raw HTML in your Markdown, and it’ll mostly work pretty well. Here are a couple of common examples:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">&lt;dl&gt;</span><br><span class="line">  &lt;dt&gt;Definition list&lt;/dt&gt;</span><br><span class="line">  &lt;dd&gt;Is something people use sometimes.&lt;/dd&gt;</span><br><span class="line"></span><br><span class="line">  &lt;dt&gt;Markdown in HTML&lt;/dt&gt;</span><br><span class="line">  &lt;dd&gt;Does *not* work **very** well. Use HTML &lt;em&gt;tags&lt;/em&gt;.&lt;/dd&gt;</span><br><span class="line">&lt;/dl&gt;</span><br><span class="line"></span><br><span class="line">&lt;table&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;th&gt;&lt;/th&gt;</span><br><span class="line">    &lt;th&gt;Tables&lt;/th&gt;</span><br><span class="line">    &lt;th&gt;Are&lt;/th&gt;</span><br><span class="line">    &lt;th&gt;Cool&lt;/th&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;th&gt;Zebra&lt;/th&gt;</span><br><span class="line">    &lt;td&gt;Stripes&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;Are&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;Pretty&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;th&gt;Here&lt;/th&gt;</span><br><span class="line">    &lt;td&gt;Is&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;Another&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;Row&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure>
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+
+<table>
+  <tr>
+    <th></th>
+    <th>Tables</th>
+    <th>Are</th>
+    <th>Cool</th>
+  </tr>
+  <tr>
+    <th>Zebra</th>
+    <td>Stripes</td>
+    <td>Are</td>
+    <td>Pretty</td>
+  </tr>
+  <tr>
+    <th>Here</th>
+    <td>Is</td>
+    <td>Another</td>
+    <td>Row</td>
+  </tr>
+</table>
+
+<p>Github-flavored Markdown supports a special table syntax, but <em>Markdown Here</em> does not support it yet. <a target="_blank" rel="noopener" href="https://github.com/adam-p/markdown-here/issues/13">There’s an issue for it.</a></p>
+<a name="hr"/>
+## Horizontal Rule
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">Three or more...</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">Hyphens</span><br><span class="line"></span><br><span class="line">***</span><br><span class="line"></span><br><span class="line">Asterisks</span><br><span class="line"></span><br><span class="line">___</span><br><span class="line"></span><br><span class="line">Underscores</span><br></pre></td></tr></table></figure>
+
+<p>Three or more…</p>
+<hr>
+<p>Hyphens</p>
+<hr>
+<p>Asterisks</p>
+<hr>
+<p>Underscores</p>
+<a name="lines"/>
+## Line Breaks
+
+<p>My basic recommendation for learning how line breaks work is to experiment and discover – hit &lt;Enter&gt; once, then hit it twice, see what happens. You’ll soon learn to get what you want. “Markdown Toggle” is your friend. </p>
+<p>Here are some things to try out:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">With only a single newline, this line and</span><br><span class="line">this line will be a *single line*.</span><br><span class="line"></span><br><span class="line">But this one is separated by two newlines and so will be a *separate paragraph*.</span><br><span class="line"></span><br><span class="line">This line has two spaces at the end (hard for you to see, but trust me!).  </span><br><span class="line">So this is a separate line in the *same paragraph*.</span><br></pre></td></tr></table></figure>
+
+<p>With only a single newline, this line and<br>this line will be a <em>single line</em>.</p>
+<p>But this one is separated by two newlines and so will be a <em>separate paragraph</em>.</p>
+<p>This line has two spaces at the end (hard for you to see, but trust me!).<br>So this is a separate line in the <em>same paragraph</em>.</p>
 
         
       </div>
